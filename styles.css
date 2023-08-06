@@ -2,6 +2,7 @@ body {
     letter-spacing: 1.5px;
     line-height: 1.6;
     font-family: 'Darker Grotesque';
+    background-color: rgb(250, 247, 239);
 }
 
 .main-title{
@@ -44,6 +45,9 @@ body {
     border-color: transparent;
     color: white;
     font-size: 10px;
+    font-family: 'Darker Grotesque';
+    letter-spacing: 1.5px;
+    line-height: 1.6;
 }
 
 .top-of-page .right{
@@ -104,14 +108,16 @@ body {
 
 .bottom-of-page .icons .img-plc-hldr{
     background-color: rgb(197, 197, 197, 0.947);
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     font-size: 10px;
 }
 
-.bottom-of-page .information{
+.bottom-of-page .icon-sub{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-size: 10px;
+    align-items: flex-end;
+}
+
+.bottom-of-page .icon-sub .info{
+    margin-left: 15px;
 }
