@@ -1,22 +1,117 @@
+body {
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+    font-family: 'Darker Grotesque';
+}
+
 .main-title{
     margin: auto;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
+    font-size: 45px;
+    font-weight: bold;
 }
 
 .top-of-page{
     display: flex;
     justify-content: space-evenly;
+    margin: auto;
+    margin-bottom: 90px;
+    width: 600px;
 }
 
 .top-of-page .left{
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    width: 350px;
+    gap: 12px;
+    width: 280px;
 }
 
 .top-of-page .left .title{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
+}
+
+.top-of-page .left .information{
+    font-size: 12px;
+}
+
+.learn-more-btn{
+    width: 105px;
+    height: 30px;
+    background-color: rgb(108, 150, 214);
+    border-style: solid;
+    border-color: transparent;
+    color: white;
+    font-size: 10px;
+}
+
+.top-of-page .right{
+    display: flex;
+    align-items: center;
+    height: 170px;
+}
+
+.top-of-page .img-plc-hldr{
+    background-color: rgb(193, 218, 240);
+    height: 180px;
+    width: 200px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.middle-of-page{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 600px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.middle-of-page .images{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.middle-of-page .img-plc-hldr{
+    background-color: rgb(193, 218, 240);
+    width: 120px;
+    height: 140px;
+    font-size: 10px;
+}
+
+.bottom-of-page{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 600px;
+}
+
+.bottom-of-page .img-plc-hldr{
+    background-color: rgb(193, 218, 240);
+    width: 160px;
+    height: 180px;
+    font-size: 10px;
+}
+
+.bottom-of-page .icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.bottom-of-page .icons .img-plc-hldr{
+    background-color: rgb(197, 197, 197, 0.947);
+    width: 50px;
+    height: 50px;
+    font-size: 10px;
+}
+
+.bottom-of-page .information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 10px;
 }
